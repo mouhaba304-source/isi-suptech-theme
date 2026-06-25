@@ -1,0 +1,41 @@
+/*
+Theme Name:   Hello Elementor ISI
+Theme URI:    https://isi-suptech.sn
+Description:  Thème enfant pour ISI SUPTECH basé sur le thème Hello Elementor.
+Author:       ISI SUPTECH
+Author URI:   https://isi-suptech.sn
+Template:     hello-elementor
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+Text Domain:  hello-elementor-isi
+*/
+
+/* Déclaration des variables CSS de la charte graphique */
+:root {
+    --isi-blue: #1f4085;
+    --isi-blue-dark: #162e5f;
+    --isi-blue-mid: #3a589e;
+    --isi-gold: #ffba2d;
+    --isi-gold-light: #fff3d0;
+    --isi-surface: #f7f9fb;
+}
+
+/* Ajoutez vos styles personnalisés ici */
+body {
+    background-color: var(--isi-surface);
+}
+
+/* Exemple de style pour un bouton personnalisé */
+.isi-btn-primary {
+    background-color: var(--isi-blue);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.isi-btn-primary:hover {
+    background-color: var(--isi-blue-dark);
+    color: #fff;
+}
